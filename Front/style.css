@@ -7,7 +7,7 @@
   .icon-bar a {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    width: 100%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
@@ -21,10 +21,7 @@
   .active {
     background-color: #91B2C7; /* Add an active/current color */
   }
-  * {
-    box-sizing: border-box;
-  }
-  #count {
+   #count {
     background: #fff;
     width: 10%;
     height: 100px;
@@ -35,6 +32,11 @@
     border-radius: 5px;
   }
   
+  .Guest_Count{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .button {
     background: #fff;
     width: 5%;
@@ -49,7 +51,7 @@
     float: left;
   }
   
-  #minus {
+  #minus { 
     color:#C7A691;
     box-shadow: 0px 1px 5px 0.2px #000;
     margin: 25px 2.5% 0 37.5%;
@@ -64,12 +66,22 @@
   .continue{
     background-color: #C7A691;
     color: #fff;
-    text-align: center;
     font-size: 30px;    
     width: 237px;
     height: 50px;
-    margin-top: 40%;
-    justify-content: center;
-    padding: 5pt 58pt 5pt 59pt;
+    justify-content: left;
     border-radius: 15px;
+  }
+
+  #continueBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dateTime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
