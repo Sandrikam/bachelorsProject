@@ -124,10 +124,7 @@
   }
 
   .dateTime{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    
   }
 
   #loaderBody{
@@ -145,7 +142,11 @@
   }
 
 .dateTime{}
-.dateName{}
+
+.dateName{
+  display: flex;
+  justify-content: space-around;
+}
 #datename{
   text-align: center;
 }
@@ -164,5 +165,8 @@
   border-style: hidden;
 }
 
-.timeName{}
+.timeName{
+  display: flex;
+  justify-content: space-around;
+}
 #timeName{text-align: center;}
